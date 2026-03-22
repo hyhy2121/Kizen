@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Nico Moji";
+  src: url("./assets/fonts/NicoMoji-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: "Nico Moji", sans-serif;
+}
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.drag-region {
+  --wails-draggable: drag;
+}
+
+.pomodoro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgba(1, 48, 30, 0.847);
+}
+
+.main_layout {
+  display: flex;
+}
+
+.side_bar {
+  width: 400px;
+  background-color: #fdfdf1;
+}
