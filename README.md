@@ -4,7 +4,7 @@ A minimalist, desktop-native productivity suite designed to keep you focused and
 
 Kizen is not just a website; it's a lightweight desktop application built with modern web technologies and powered by a Go backend. It combines a Pomodoro timer, task management, and daily scheduling into one sleek, distraction-free interface.
 
-> 🖼️ **![alt text](image.png)]**
+> **![alt text](image.png)**
 
 ## ✨ Current Features
 
